@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cronometro</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card d-flex align-items-center mt-5">
+        <div class="bg-header d-flex">
+          <h1 id="minutes" class="display-4">00:</h1>
+          <h1 id="seconds" class="display-4">00</h1>
+        </div>
+        <div class="card-body bg-dark">
+          <button onclick="buttonAction('start')" class="btn btn-lg m-1 btn-light">Start</button>
+          <button onclick="buttonAction('stop')" id="btn" class="btn btn-lg m-1 btn-light">Stop</button>
+          <button onclick="buttonAction()" class="btn btn-lg m-1 btn-light">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
